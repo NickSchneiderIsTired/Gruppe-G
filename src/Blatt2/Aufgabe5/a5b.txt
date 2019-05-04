@@ -4,4 +4,3 @@
 4. default void forEach(Consumer<? super T> action)
 5. Nein
 6. 2
-7.

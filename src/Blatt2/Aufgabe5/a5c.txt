@@ -1,0 +1,11 @@
+1. public abstract class AbstractList<E>
+   extends AbstractCollection<E>
+   implements List<E>
+2. Nein
+3. Ja
+4. AbstractSequentialList, ArrayList, Vector
+5. abstract E get​(int index)
+6. Nein
+7. Nein
+8. Nein, erbt aus java.util.AbstractCollection
+9. boolean equals​(Object o): Vergleicht 2 Objekte
