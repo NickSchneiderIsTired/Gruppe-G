@@ -1,0 +1,22 @@
+1. public final class LocalDate extends Object implements
+   Serializable, ChronoLocalDate, Temporal,
+   TemporalAdjuster
+2. Alle Objekte sind unveränderbar (immutable). Alle Methoden, die nach Änderung
+    aussehen, erzeugen neue Objekte mit den gewünschten Änderungen
+3. Ja
+4. Nein
+5. Serializable, ChronoLocalDate, Temporal und TemporalAdjuster
+6. Object
+7. java.time
+8. LocalDateTime, (indirekt) ZonedDateTime
+9. public static LocalDate now() => Objekt: Das aktuelle Datum und Systemzeit und standard Zeitzone
+10. "Konvertiert" ein LocalDate Objekt von einer Textform (Parameter text).
+    API-Text der From DateTimeFormatter.ISO_LOCAL_DATE
+11. toString()
+12. LocalDate e = d.minus("87 days");
+13. Ja
+14. Ja
+15. Nein
+16. Ja
+17. Nein
+18. equals: Prüft obt Datum gleich einem anderen ist

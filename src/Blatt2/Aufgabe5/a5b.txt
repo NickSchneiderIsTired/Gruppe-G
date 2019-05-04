@@ -1,0 +1,7 @@
+1. public interface Iterable<T>
+2. Ja
+3. Ja
+4. default void forEach(Consumer<? super T> action)
+5. Nein
+6. 2
+7.
