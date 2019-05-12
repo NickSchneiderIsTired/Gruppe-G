@@ -1,0 +1,6 @@
+1. public interface Comparable<T>
+2. Der Typ der Objekte die verglichen werden
+3. Ordnen von Objekten, dessen Klassen dieses Interface implementieren
+4. Ja, public int compareTo​(Integer anotherInteger). 0 falls die zwei Integer gleich sind
+5. System.out.println(((Integer) i).compareTo(j));
+6. Sie ist ein Objekt der Klasse Object, nicht Integer
