@@ -1,0 +1,15 @@
+1. Substitutionsprinzip:
+    Eine ArrayList kann ein Objekt der Klasse Object als Parameter nehmen.
+    Sehr viele Klassen wie zB Integer sind Unterklassen von Object
+    und haben somit die gleichen Funktionen wie Objekte der Object Klasse und noch zusätzlich welche.
+    Dadurch funktioniert die ArrayList mit sehr vielen Klassen
+
+2. Polymorphismus:
+    Die Möglichkeit, ein neues Objekt von einem vorhandenen Objekt abzuleiten,
+    wobei das neue Objekt alle Merkmale und Fähigkeiten des alten besitzt.
+    Die Object Klass hat extrem viele Unterklassen
+
+3. Spätes Binden:
+    Späte Bindung ist die Voraussetzung für Polymorphie.
+    Erst zur Laufzeit des Programms wird entschieden, welche Methode zum Einsatz kommt.
+    Funktionen von Integer überschreiben die gleichen von Object wenn man eine ArrayList<Integer> implementiert.

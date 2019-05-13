@@ -1,0 +1,3 @@
+Dadurch dass sehr viele Klassen das Interface "Collection" implentieren,
+muss die Methoden nicht für jeden einzelnen Datentypen geschrieben werden,
+sondern kann viele verschiedene Ansammlung an Objekten als Eingabeparameter nehmen
