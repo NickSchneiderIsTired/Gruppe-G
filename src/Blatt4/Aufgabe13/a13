@@ -1,0 +1,11 @@
+1. Methoden für Arrays bereitstellen
+2. public static void sort​(double[] a)
+3. Geprüft: "Eingeplante Fehler" für Benutzerfehlverhalten
+   Ungeprüft: Programmierfehler, nicht eingeplant
+4. NegativeArraySizeException, NullPointerException
+5. NumberFormatException
+6. fromIndex > toIndex
+7. Ungeprüft
+8. Feld mit nicht-existieredem Index aufgerufen (z.B [2] in { "hey", "there" } )
+9. IndexOutOfBoundsException
+10. RunTimeException, Exception, Throwable, Object
