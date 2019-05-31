@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>330</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>+Buch
+--
+-isbn:String {|isbn| == 10}
+-year:int [0..1] {year &gt; 1899}
+-authorNames:String [1..*] {|authorNames| &gt; 1}
+-authorFNames:String [1..*] {|authorFNames| &gt; 1}
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
