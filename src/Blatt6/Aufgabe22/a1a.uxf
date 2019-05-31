@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>200</x>
+      <y>60</y>
+      <w>360</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>+ Task
+--
+-desc:String {|desc| &gt; 0}
+-prio:int {1 &lt;= prio &lt;= 5} 
+--
++Task(desc:String, prio:int) {IllegalArgumentException}
++Task(desc:String) {IllegalArgumentException}
++setPrio(in prio:int)
++getPrio():int
+-checkPrio(in prio:int):boolean
++setDesc(in desc:String) {IllegalArgumentException}
+-checkDesc(in desc:String):boolean
++equals(in task:Task):boolean
++getTaskString():String</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

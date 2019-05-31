@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>370</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>+Employee
+--
+-name:String {|name| &gt; 1}
+-language:String [0..*] {free of copies}
+-room:Room [0..1]
+--
++Employee(name:String, language:String, room:Room)
++getLanguage():String [0..*]
++getName():String
++getRoom():Room [0..1]
++setLanguage(in lang:String)
++setName(in name:String)
++setRoom(in room:Room)
+-checkName():boolean {IllegalArgumentException}
+-checkLanguage():boolean {IllegalArgumentException}</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

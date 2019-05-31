@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>40</x>
+      <y>30</y>
+      <w>320</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>+Appartment
+--
+-area:int {20 &lt;= area &lt;= 120}
+-prize:int {prize &gt;= 10000 &amp;&amp; prize % 1000 == 0}
+--
++Appartment(area:int, prize:int)
++getArea():int
++getPrize():int
++getSquaremeterPrize():double</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
