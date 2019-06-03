@@ -28,18 +28,17 @@ public class Contact {
         this.remark = remark;
     }
 
-    /*It makes no sense to use a String here, since the List has "Telephone" objects*/
-    public void addTelephone(String telephone) throws IllegalInputException, IllegalArgumentException {
+    public void addTelephone(Telephone telephone) throws IllegalInputException, IllegalArgumentException {
         if(!checkFormatTelephone(telephone)) {
             throw new IllegalArgumentException("Wrong Format");
         } else if(!checkCountTelephone(telephone)) {
             throw new IllegalInputException("Already 3 Numbers", "");
         } else {
-            this.telephone.add(new Telephone(TelephoneType.PRIVATE, telephone)); // Doesnt make sense with String param
+            this.telephone.add(telephone);
         }
     }
 
-    public void deleteTelephone(String telephone) {
+    public void deleteTelephone(Telephone telephone) {
         this.telephone.remove(telephone);
     }
 
@@ -51,11 +50,11 @@ public class Contact {
         }
     }
 
-    private boolean checkFormatTelephone(String telephone) {
-        return !telephone.matches("00.*");
+    private boolean checkFormatTelephone(Telephone telephone) {
+        return !telephone.getNumber().matches("00.*");
     }
 
-    private boolean checkCountTelephone(String telephone) {
+    private boolean checkCountTelephone(Telephone telephone) { //Useless
         return this.telephone.size() < 3;
     }
 }
