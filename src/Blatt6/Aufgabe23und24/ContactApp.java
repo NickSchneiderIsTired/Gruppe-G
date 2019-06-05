@@ -11,7 +11,7 @@ public class ContactApp {
         System.out.println(c.getFavorite() + " " + c.getRemark());
         try {
             Telephone t = new Telephone(TelephoneType.PRIVATE, "7483701");
-            c.addTelephone(t.getNumber());
+            c.addTelephone(t);
             System.out.println(c.getTelephone(0));
         } catch (IllegalInputException e) {
             e.printStackTrace();
