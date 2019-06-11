@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>544</x>
+      <y>112</y>
+      <w>256</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>+ Immobilie
+--
+-prize:int {prize &gt;= 10000 &amp;&amp; prize % 1000 == 0}
+_-provision:double = 3.45_
+--
+#Immobilie(prize:int) {IllegalPrizeException}
++getSquareMeterPrize():double
++getPrize():int
++setPrize(int prize:int) {IllegalPrizeException}
+-checkPrize():boolean
++getProvision():double
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>32</x>
+      <y>56</y>
+      <w>384</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>+ Grundstück
+--
+-size:int {size &gt;= 250}
+--
++Grundstück(prize:int, size:int) {IllegalSizeException, IllegalPriceException}
++getSize():int
++setSize(in size:int): {IllegalSizeException}
+-checkSize():boolean
++getSquareMeterPrize():double</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>32</x>
+      <y>200</y>
+      <w>384</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>+ Appartment
+--
+-area:int {20 &lt;= area &lt;= 120}
+--
++Appartment(prize:int, area:int) {IllegalSizeException, IllegalPriceException}
++getArea():int
++setArea(in area:int): {IllegalSizeException}
+-checkArea():boolean
++getSquareMeterPrize():double
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>408</x>
+      <y>96</y>
+      <w>152</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>170.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>408</x>
+      <y>208</y>
+      <w>152</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>170.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+</diagram>
