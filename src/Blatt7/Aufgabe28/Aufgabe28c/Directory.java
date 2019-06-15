@@ -2,7 +2,7 @@ package Blatt7.Aufgabe28.Aufgabe28c;
 
 import java.util.ArrayList;
 
-public class Directory extends AbstractFile {
+/*public class Directory extends AbstractFile {
 
     private ArrayList<Directory> elements;
 
@@ -15,4 +15,4 @@ public class Directory extends AbstractFile {
         return size;
     }
 
-}
+}*/
