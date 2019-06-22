@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8826a7ae-4b24-4c6d-ae1b-94029e7efd3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Blatt9/Aufgabe33/Aufgabe33" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blatt9/Aufgabe34/gui/ChoiceEmployee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blatt8/Aufgabe31/Aufgabe31a/Bibliotheksverwaltung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blatt8/Aufgabe31/Aufgabe31a/Bibliotheksverwaltung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blatt8/Aufgabe31/Aufgabe31b/BuchContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blatt8/Aufgabe31/Aufgabe31b/BuchContainer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +16,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Blatt9/Aufgabe33/Aufgabe33">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Blatt9/Aufgabe34/gui/DemoApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+            <state relative-caret-position="68">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Blatt9/Aufgabe34/gui/RegisterEmployee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="121" column="9" selection-start-line="121" selection-start-column="9" selection-end-line="121" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#5520#5521#0" expanded="true" />
+                <element signature="e#5576#5577#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Blatt9/Aufgabe34/gui/ChoiceEmployee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="50" column="45" lean-forward="true" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,15 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Blatt4/Aufgabe14/Circle.java" />
-        <option value="$PROJECT_DIR$/src/Blatt4/Aufgabe14/Main.java" />
-        <option value="$PROJECT_DIR$/src/Blatt4/Aufgabe14/a14b/Main.java" />
-        <option value="$PROJECT_DIR$/src/Blatt4/Aufgabe14/a14a/Main.java" />
-        <option value="$PROJECT_DIR$/src/Blatt4/Aufgabe14/a14a/a14a.java" />
-        <option value="$PROJECT_DIR$/src/Blatt4/Aufgabe15/a15a/Task.java" />
-        <option value="$PROJECT_DIR$/src/Blatt4/Aufgabe15/a15a/TaskApp.java" />
-        <option value="$PROJECT_DIR$/src/Blatt4/Aufgabe15/Task.java" />
-        <option value="$PROJECT_DIR$/src/Blatt4/Aufgabe15/TaskApp.java" />
         <option value="$PROJECT_DIR$/src/Blatt4/Aufgabe16/Apparment.java" />
         <option value="$PROJECT_DIR$/src/Blatt4/Aufgabe16/Immobilie.java" />
         <option value="$PROJECT_DIR$/src/Blatt4/Aufgabe16/IllegalSizeException.java" />
@@ -95,9 +114,18 @@
         <option value="$PROJECT_DIR$/src/Blatt8/Aufgabe29/Aufgabe29b/Student.java" />
         <option value="$PROJECT_DIR$/src/Blatt8/Aufgabe31/Aufgabe31c/Warndialog.java" />
         <option value="$PROJECT_DIR$/src/Blatt5/Aufgabe17/Aufgabe17d.java" />
+        <option value="$PROJECT_DIR$/src/Blatt9/Aufgabe33/Aufgabe33" />
+        <option value="$PROJECT_DIR$/src/Blatt9/Aufgabe34/data/Employee.java" />
+        <option value="$PROJECT_DIR$/src/Blatt9/Aufgabe34/data/EmployeeContainer.java" />
+        <option value="$PROJECT_DIR$/src/Blatt9/Aufgabe34/data/TemporaryEmployee.java" />
+        <option value="$PROJECT_DIR$/src/Blatt9/Aufgabe34/gui/ChoiceEmployee.java" />
+        <option value="$PROJECT_DIR$/src/Blatt9/Aufgabe34/gui/ListEmployee.java" />
+        <option value="$PROJECT_DIR$/src/Blatt9/Aufgabe34/gui/ChangeEmployee.java" />
+        <option value="$PROJECT_DIR$/src/Blatt9/Aufgabe34/gui/EmployeeGUI.java" />
         <option value="$PROJECT_DIR$/src/Blatt8/Aufgabe31/Aufgabe31b/BuchContainer.java" />
         <option value="$PROJECT_DIR$/src/Blatt8/Aufgabe31/Aufgabe31a/Bibliotheksverwaltung.java" />
-        <option value="$PROJECT_DIR$/src/Blatt9/Aufgabe33/Aufgabe33" />
+        <option value="$PROJECT_DIR$/src/Blatt9/Aufgabe34/gui/DemoApp.java" />
+        <option value="$PROJECT_DIR$/src/Blatt9/Aufgabe34/gui/RegisterEmployee.java" />
       </list>
     </option>
   </component>
@@ -132,7 +160,30 @@
               <item name="Gruppe G" type="b2602c69:ProjectViewProjectNode" />
               <item name="Gruppe G" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Aufgabe33" type="462c0819:PsiDirectoryNode" />
+              <item name="Blatt9" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gruppe G" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gruppe G" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Blatt9" type="462c0819:PsiDirectoryNode" />
+              <item name="Aufgabe34" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gruppe G" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gruppe G" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Blatt9" type="462c0819:PsiDirectoryNode" />
+              <item name="Aufgabe34" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gruppe G" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gruppe G" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Blatt9" type="462c0819:PsiDirectoryNode" />
+              <item name="Aufgabe34" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -159,7 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Aufgabe17d">
+  <component name="RunManager" selected="Application.DemoApp">
     <configuration name="Aufagbe17b" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Blatt5.Aufgabe17.Aufagbe17b" />
       <module name="Gruppe G" />
@@ -212,12 +263,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Aufgabe20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Blatt5.Aufgabe20.Aufgabe20" />
+    <configuration name="DemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Blatt9.Aufgabe34.gui.DemoApp" />
       <module name="Gruppe G" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Blatt5.Aufgabe20.*" />
+          <option name="PATTERN" value="Blatt9.Aufgabe34.gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -240,11 +291,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoApp" />
         <item itemvalue="Application.Aufgabe17d" />
         <item itemvalue="Application.Aufgabe17c" />
         <item itemvalue="Application.Aufagbe17b" />
         <item itemvalue="Application.Aufgabe19b" />
-        <item itemvalue="Application.Aufgabe20" />
       </list>
     </recent_temporary>
   </component>
@@ -378,12 +429,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560628792634</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Aufgabe 33">
+      <created>1561220826905</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1561220826905</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18124007" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -392,7 +449,7 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26110125" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26110125" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -426,87 +483,10 @@
     <MESSAGE value="Aufgabe 23+24 fail" />
     <MESSAGE value="Blatt 7" />
     <MESSAGE value="Blatt 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Blatt 8" />
+    <MESSAGE value="Aufgabe 33" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aufgabe 33" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Blatt4/Aufgabe16/Immobilie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Blatt5/Aufgabe17/spacer" />
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.desktop/javax/swing/BoxLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="178" column="11" selection-start-line="178" selection-start-column="11" selection-end-line="178" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.desktop/javax/swing/JPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="787">
-          <caret line="107" column="36" selection-start-line="107" selection-start-column="36" selection-end-line="107" selection-end-column="36" />
-          <folding>
-            <element signature="e#3132#3133#0" expanded="true" />
-            <element signature="e#3158#3159#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Blatt5/Aufgabe17/Aufgabe17c.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.desktop/javax/swing/JButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
-          <folding>
-            <element signature="e#2743#2744#0" expanded="true" />
-            <element signature="e#2775#2776#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Blatt5/Aufgabe18/Aufgabe18c/Aufgabe18c.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Blatt5/Aufgabe18/Aufgabe18c/MyActionListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Blatt5/Aufgabe19.java" />
     <entry file="file://$PROJECT_DIR$/src/Blatt5/Aufgabe20.java" />
     <entry file="file://$PROJECT_DIR$/src/Blatt5/Aufgabe18/Aufgabe18b.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -790,30 +770,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Blatt8/Aufgabe31/Aufgabe31b/BuchContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Blatt8/Aufgabe31/Aufgabe31c/Warndialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Blatt8/Aufgabe31/Aufgabe31a/Bibliotheksverwaltung.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -825,6 +785,105 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Blatt9/Aufgabe34/data/TemporaryEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="36" column="52" lean-forward="true" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Blatt9/Aufgabe34/gui/ChangeEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="139" column="31" selection-start-line="139" selection-start-column="31" selection-end-line="139" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Blatt9/Aufgabe34/gui/ListEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="e#2366#2376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Blatt9/Aufgabe34/gui/EmployeeGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Blatt9/Aufgabe34/data/EmployeeContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Blatt8/Aufgabe31/Aufgabe31b/BuchContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Blatt8/Aufgabe31/Aufgabe31a/Bibliotheksverwaltung.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Blatt9/Aufgabe34/gui/DemoApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Blatt9/Aufgabe34/gui/ChoiceEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="50" column="45" lean-forward="true" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Blatt9/Aufgabe34/data/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="110" column="30" selection-start-line="110" selection-start-column="30" selection-end-line="110" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2984#2985#0" expanded="true" />
+            <element signature="e#3030#3031#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Blatt9/Aufgabe34/gui/RegisterEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="121" column="9" selection-start-line="121" selection-start-column="9" selection-end-line="121" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5520#5521#0" expanded="true" />
+            <element signature="e#5576#5577#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

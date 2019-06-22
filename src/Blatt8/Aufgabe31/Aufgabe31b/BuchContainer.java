@@ -3,7 +3,7 @@ package Blatt8.Aufgabe31.Aufgabe31b;
 import java.util.ArrayList;
 import java.util.zip.DataFormatException;
 
-/* Not compilable */
+/* Not compilable
 public class BuchContainer {
 
     private ArrayList<Buch> alleBuecher;
@@ -17,3 +17,4 @@ public class BuchContainer {
     }
 
 }
+*/

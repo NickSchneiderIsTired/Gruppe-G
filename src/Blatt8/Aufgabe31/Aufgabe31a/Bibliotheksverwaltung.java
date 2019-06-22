@@ -5,7 +5,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-/* Not compilable */
+/* Not compilable
 public class Bibliotheksverwaltung extends JFrame implements ActionListener {
 
     public Bibliotheksverwaltung() {
@@ -29,3 +29,4 @@ public class Bibliotheksverwaltung extends JFrame implements ActionListener {
 
     }
 }
+ */
