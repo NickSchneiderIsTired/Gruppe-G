@@ -1,0 +1,27 @@
+1. id > 1000
+2. id identisch
+3. dd.MM.yyyy
+4. Optional<Employee>
+5. Für den PropertyChangeSupport (Überwachung von Änderungen von Attributen)
+6. setName(), linkBoss(), unlinkBoss()
+7. setID() wird nur im Konstruktor aufgerufen und nicht von andern Klassen
+8. Eindeutiges Zuordnungs-Attribut für Employees
+9. "employee"
+10. Alt: a, Neu: null
+11. Die Klasse implementiert das Interface Iterable<Employee>
+12. Die ArrayList employee muss den zu löschenden Employee beinhalten
+13. Die Text "Changes are NOT SAVED" wird angezeigt
+14. Die Text "Changes are NOT SAVED" wird angezeigt
+15. Ein RegisterEmployee Objekt hat ein Reference-Attribute des E-Containers,
+    welches per Container.instance() initialisiert wird.
+16. e.getNewValue(); Das erhaltene Objekt enthällt die ID
+17. Es wird ein neues Employee Objekt mit PropertyChangeListener erstellt und vom alten entfernt.
+    Für das neue Objekt wird das Ausgewählte bossChoice gesetzt
+18. Die Änderungen werden verworfen und die ursprünglichen Werte wiederhergestellt.
+19. Es handelt sich nach dem Auslesen des Textfeldes um einen String => erst zu LocalDate
+20. Beim hinzufügen von Employee Objekten wird diesem ein ProperyChangeListener übergeben
+21. Die Methode getChoice() von ChoiceEmployee bietet die Schnittstelle um die Auswahl "subject" zurückzugeben
+    Danach wird die load() Methode von Reg.Employee aufgerufen und wie folgt verwaltet (Nr 22):
+22. -nameTextfield auf Name der Auswahl setzen | -Begindatum Formatieren und im Textfeld setzen |
+    - Ggf. bossChoice setzen | -Bei Fehlern Nachricht-Dialog ausgeben
+23. ChoiceEmployee gehört zur GUI-Schicht und hat somit nur Zugriff auf Verwaltungsklassen
