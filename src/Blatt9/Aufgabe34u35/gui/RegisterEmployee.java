@@ -6,10 +6,10 @@
  *
  */
 
-package Blatt9.Aufgabe34.gui;
+package Blatt9.Aufgabe34u35.gui;
 
 import Blatt4.Aufgabe14.IllegalInputException;
-import Blatt9.Aufgabe34.data.*;
+import Blatt9.Aufgabe34u35.data.*;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
