@@ -1,0 +1,35 @@
+create table Circle
+(
+    ID integer not null,
+    position integer not null,
+    radius float not null,
+    check (radius > 0),
+    foreign key (position) references Point(ID)
+    primary key(ID),
+);
+
+create table Rectangle
+(
+    ID integer not null,
+    position integer not null,
+    length float not null,
+    width float not null,
+    check (length > 0),
+    check (width > 0),
+    foreign key (position) references Point(ID)
+    primary key(ID),
+);
+
+create table Point
+(
+    ID integer not null,
+    x float not null,
+    y float not null,
+    primary key(ID),
+);
+
+Vorteile:
+    Leicht erweiterbar um weitere Unterklassen.
+    Lese- und Speicherzugriffe betreffen nur einzelne Tabellen und erfordern keine Joins
+Nachteile:
+    Polymorphe Abfragen sind schwieriger

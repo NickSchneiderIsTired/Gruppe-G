@@ -1,0 +1,29 @@
+create table GeometricObject
+(
+    ID integer not null,
+    position integer not null,
+    radius float not null,
+    length float not null,
+    width float not null,
+    type varchar(20) not null,
+    check (radius > 0),
+    check (length > 0),
+    check (width > 0),
+    foreign key (position) references Point(ID)
+    primary key(ID),
+);
+
+create table Point
+(
+    ID integer not null,
+    x float not null,
+    y float not null,
+    primary key(ID),
+);
+
+Vorteile:
+    Lese- und Speicherzugriffe betreffen nur eine einzelne Tabelle und erfordern keine Joins,
+    Polymorphe Abfragen sind einfach
+Nachteile:
+    Viele Klassen pro DB-Tabelle
+    Fehlende "Normalisierung" kann Speicherplatzverschwendung bedeuten.

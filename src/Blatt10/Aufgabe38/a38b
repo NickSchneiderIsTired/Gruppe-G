@@ -1,0 +1,8 @@
+create table Buch
+(
+    isbn varchar(10) not null,
+    jahr integer,
+    autor varchar(20) not null,
+    check (|isbn| == 10),
+    primary key(isbn),
+);

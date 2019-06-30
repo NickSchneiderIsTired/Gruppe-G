@@ -1,0 +1,18 @@
+a)
+1. insert into Point values
+    (5, 0, 0);
+2. update Circle
+    set point = 5, radius = 10
+    where ID = 7;
+    
+b)
+1. delete from Kunde
+    where ID = 123;
+2. select distinct ID
+    from Ausleihe
+    where ende = "20.12.2017";
+    
+c)
+    select distinct patientID, arztID
+    from Behandlung
+    where diagnose = "Grippe";

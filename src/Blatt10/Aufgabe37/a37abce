@@ -1,0 +1,10 @@
+a) Nein, da ein Auto keine Flughöhe hat und eine Drohne keine Personenkapazität.
+   Man müsste für Drohne und Auto einzelne Klassen machen
+b) Nein, weil man für jeden weiteren Artikel eine extra ArrayList in Supermarkt anlegen müsste.
+   Besser: Abstrakte Klasse "Artikel" => Unterklassen: Salat, Gurken etc. => Supermarkt hat ArrayList<Artikel>
+c) Ja, denn ein Präsident IST eine Person. Somit kann man mit einem Präsidenten alles machen,
+    was man mit einer Person auch machen kann (Logisch betrachtet)
+e) Bei jedem neuen Ereignis werden den EventListenern mitgeteilt dass etwas passiert ist,
+    und darauf reagiert werden soll. Diese Reaktion ist jedoch Programm-abhängig und vom
+    Programmierer selbst zu implementieren. Die EventListener sind nötige Schnittstelle für das
+    DIP

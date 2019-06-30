@@ -1,0 +1,24 @@
+create table Patient
+(
+    ID integer not null,
+    primary key(ID),
+    foreign key (Behandlung) references Behandlung(ID),
+);
+
+create table Behandlung
+(
+    ID integer not null,
+    Diagnose varchar(200) not null,
+    Arzt varchar(30) not null,
+    Patient varchar(30) not null,
+    primary key(ID),
+    foreign key(Arzt) references Arzt(ID),
+    foreign key(Patient) references Patient(ID),
+);
+
+create table Arzt
+(
+    ID integer not null,
+    primary key(ID),
+    foreign key(Behandlung) references Behandlung(ID),
+);

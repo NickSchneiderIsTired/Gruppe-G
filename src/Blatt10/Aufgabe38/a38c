@@ -1,0 +1,17 @@
+create table Kunde
+(
+    nummer integer not null,
+    auftraege integer,
+    check (|nummer| == 10),
+    foreign key(auftraege) references Auftrag(nummer),
+    primary key(nummer),
+);
+
+create table Auftrag
+(
+    nummer integer not null,
+    auftraggeber integer not null,
+    check (|nummer| < 5),
+    foreign key(auftraggeber) references Kunde(nummer),
+    primary key(nummer),
+);
