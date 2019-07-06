@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="Arztpraxis">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="Behandlung" type="BehandlungType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+<xs:complexType name="BehandlungType">
+    <xs:sequence>
+        <xs:element name="Arzt" type="ArztType" maxOccurs="unbounded"/>
+        <xs:element name="Patient" type="PatientType" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element name="diagnose" type="restrictedString" />
+    </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ArztType">
+    <xs:sequence>
+        <xs:element name="Behandlung" type="BehandlungType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="PatientType">
+    <xs:sequence>
+        <xs:element name="Behandlung" type="BehandlungType" maxOccurs="unbounded"/>
+    </xs:sequence>
+</xs:complexType>
+
+<xs:simpleType name="restrictedString">
+    <xs:restriction base="xs:string">
+        <xs:maxLength value="200"/>
+    </xs:restriction>
+</xs:simpleType>
+
+</xs:schema>

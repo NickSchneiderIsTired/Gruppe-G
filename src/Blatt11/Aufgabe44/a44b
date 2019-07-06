@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="Bücherregal">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="Buch" type="BuchType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+    <xs:complexType name="BuchType">
+        <xs:sequence>
+            <xs:element name="isbn" type="xs:string"/>
+            <xs:element name="jahr" type="xs:integer" minOccurs="0"/>
+            <xs:element name="autor" type="xs:string" maxOccurs="unbounded"/>
+            <!-- Autor ist besser als Autoren (Wegen einzelnen Elementen in XML) -->
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

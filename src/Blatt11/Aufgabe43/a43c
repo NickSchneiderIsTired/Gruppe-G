@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Bibliothek xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <Buch>
+        <isbn> 1434730242 </isbn>
+        <kunde> 1 </kunde>
+    </Buch>
+    <Buch>
+        <isbn> 7926502242 </isbn>
+        <kunde> 2 </kunde>
+    </Buch>
+    <Kunde>
+        <nummer> 1 </nummer>
+    </Kunde>
+    <Kunde>
+        <nummer> 2 </nummer>
+    </Kunde>
+</Bibliothek>
