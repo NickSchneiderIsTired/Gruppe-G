@@ -9,4 +9,8 @@ public class Buch {
     public String getAutor() {
         return autor;
     }
+    public Buch(String isbn, String title) {
+        this.isbn = isbn;
+        autor = title;
+    }
 }
